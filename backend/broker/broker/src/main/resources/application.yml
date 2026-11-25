@@ -46,3 +46,15 @@ logging:
   level:
     org.springframework.security: DEBUG
     org.springframework.security.web.FilterChainProxy: TRACE
+
+diagnostics:
+  jfr:
+    enabled: true
+    name: broker
+    settings: profile
+    directory: target/jfr
+    max-age: 30m
+    max-size: 256MB
+    dump-on-exit: true
+    http:
+      stack-trace: true

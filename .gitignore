@@ -1,3 +1,7 @@
 ### VS Code ###
 .vscode/
 Trading.code-workspace
+
+### Node ###
+frontend/brokerapp/env/
+node_modules/
